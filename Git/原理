@@ -1,0 +1,25 @@
+## Init
+ mkdir hello-world-project
+ cd hello-world-project
+ 
+ git init  ## 生成.git文件夹,里面存储版本信息
+ 
+ touch ReadMe.md  ## 项目中生成代码、注释等文件
+ 
+ git status   ##显示文件变动
+ 
+ git add xxx/-all   ##将变动的文件保存入暂存区
+ 
+ git commit -m "init a commit " 
+ 
+ git push 
+ 
+##其它相关命令
+ 
+ git log  ##commit 日志
+ git checkout ##切换分支；从暂存区拷贝文件到工作目录；
+ git diff ##代码变动
+ git stash 
+
+ 
+ 
